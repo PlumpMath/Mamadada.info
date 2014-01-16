@@ -1,0 +1,69 @@
+@dark-gray: #111;
+@almost-white: #F7F7F7;
+
+a {
+color: #777;
+}
+
+a:hover {
+	color: #AAA;
+	}
+
+
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: @almost-white;
+	color: #CCC;
+}
+
+.outer-container  {
+	padding-top: 80px;
+}
+
+.container {
+}
+
+.film-title {
+	font-weight: bold;
+	margin-top: 0.5em !important;
+}
+
+.js-video {
+
+  height: 0;
+  padding-bottom: 56.2%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.menu {
+	text-align: center;
+	overflow: auto;
+}
+
+.nav-collapse {
+background-color: red;
+}
+
+.menu-item {
+	display: inline-block;
+	}
+
+.menu-item:not(:first-child) {
+	padding-left: 50px;
+	}
