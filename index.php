@@ -11,8 +11,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/mamadada.css">
-<!--	<link rel="stylesheet/less" href="css/mamadada.less"> -->
+<!--	<link rel="stylesheet" href="css/mamadada.css"> -->
+	<link rel="stylesheet/less" href="css/mamadada.less"> 
 
 
 
@@ -29,22 +29,24 @@
 <div class="outer-container">
 <div class="container">
 	<div class="row centered">
-		<div class="col-md-12 title">
+		<div class="row-wide title">
 			<center><img src="images/title_brush.png" class="img-responsive"></center>
 		</div>
 	</div>
 
-	<div class="row centered menu">
+	<div class="row centered menu" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
+		<div class="row-wide">
 
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-trailer" class="scroll"><img src="images/categories-sliced/trailer.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-artists" class="scroll"><img src="images/categories-sliced/artists.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-crew" class="scroll"><img src="images/categories-sliced/crew.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-screenings" class="scroll"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-visuals" class="scroll"><img src="images/categories-sliced/visuals.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-press" class="scroll"><img src="images/categories-sliced/press.png" class="img-nonreponsive"></a></div>
-		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-links" class="scroll"><img src="images/categories-sliced/links.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-trailer" class="scroll"><img src="images/categories-sliced/trailer.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-artists" class="scroll"><img src="images/categories-sliced/artists.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-crew" class="scroll"><img src="images/categories-sliced/crew.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-screenings" class="scroll"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-visuals" class="scroll"><img src="images/categories-sliced/visuals.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-press" class="scroll"><img src="images/categories-sliced/press.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-links" class="scroll"><img src="images/categories-sliced/links.png" class="img-nonreponsive"></a></div>
 
+		</div>
 	</div>
 		
 <!-- ABOUT -->
@@ -225,7 +227,8 @@ July-August, 2014<br>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/less-1.5.0.min.js"></script>
 	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
-<script src="//use.edgefonts.net/lato;pt-sans;neuton;source-sans-pro.js"></script>
+<script src="//use.edgefonts.net/lato.js"></script>
+
 
 
 <script>

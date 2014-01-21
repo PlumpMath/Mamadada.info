@@ -1,6 +1,7 @@
 @import "../bootstrap/less/bootstrap.less";
 
 @dark-gray: #111;
+@light-gray : #DDD;
 @almost-white: #F7F7F7;
 @margin-medium: 50px;
 
@@ -66,7 +67,18 @@ body {
   position: absolute;
 }
 
+.menu.affix {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 0px;
+	margin: 0px;
+	z-index: 10;
+	border-bottom: 1px solid @light-gray;
+}
+
 .menu {
+	background-color: @almost-white;
 	text-align: center;
 	overflow: auto;
 	margin-bottom: @margin-medium;
