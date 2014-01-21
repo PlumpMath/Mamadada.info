@@ -11,9 +11,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
 	<link rel="stylesheet/less" href="css/mamadada.less">
-	<script src="js/less-1.5.0.min.js"></script>
+
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,59 +26,167 @@
 
 
 <div class="outer-container">
-  <div class="container">
-
+<div class="container">
 	<div class="row centered">
 		<div class="col-md-12">
 			<center><img src="images/title.png" class="img-responsive"></center>
 		</div>
 	</div>
-	<div class="row centered">
-		<div class="col-md-12">
-			<div class="menu">
-				<div class="menu-item"><a href="#about"><img src="images/categories-sliced/about.png" class="img-responsive"></a></div>
-				<div class="menu-item"><a href="#artists"><img src="images/categories-sliced/artists.png" class="img-responsive"></a></div>
-				<div class="menu-item"><a href="#links"><img src="images/categories-sliced/links.png" class="img-responsive"></a></div>
-				<div class="menu-item"><a href="#press"><img src="images/categories-sliced/press.png" class="img-responsive"></a></div>
-				<div class="menu-item"><a href="#screenings"><img src="images/categories-sliced/screenings.png" class="img-responsive"></a></div>
-				<div class="menu-item"><a href="#trailer"><img src="images/categories-sliced/trailer.png" class="img-responsive"></a></div>
-			</div>
-		</div>
-	</div>
-	<div class="row centered menu">
-				<div class="col-md-2"><a href="#about"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
-				<div class="col-md-2"><a href="#artists"><img src="images/categories-sliced/artists.png" class="img-nonreponsive"></a></div>
-				<div class="col-md-2"><a href="#links"><img src="images/categories-sliced/links.png" class="img-nonreponsive"></a></div>
-				<div class="col-md-2"><a href="#press"><img src="images/categories-sliced/press.png" class="img-nonreponsive"></a></div>
-				<div class="col-md-2"><a href="#screenings"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
-				<div class="col-md-2"><a href="#trailer"><img src="images/categories-sliced/trailer.png" class="img-nonreponsive"></a></div>
-			</div>
-		</div>
 
-		
+	<div class="row centered menu">
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-artists" class="scroll"><img src="images/categories-sliced/artists.png" class="img-nonreponsive"></a></div>
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-links" class="scroll"><img src="images/categories-sliced/links.png" class="img-nonreponsive"></a></div>
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-press" class="scroll"><img src="images/categories-sliced/press.png" class="img-nonreponsive"></a></div>
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-screenings" class="scroll"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
+
+		<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-trailer" class="scroll"><img src="images/categories-sliced/trailer.png" class="img-nonreponsive"></a></div>
 	</div>
-	<div class="row centered">
-		<div class="col-md-offset-1 col-md-10 col-video">
+		
+<!-- ABOUT -->
+	<div class="row centered" id="section-about">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/about.png"></div>
+<p class"lead">The Filmballad of MAMADADA</p>
+<p>The Filmballad of Mamadada tells the story of Baroness Elsa von Freytag-Loringhoven, unsung member of the New York Dada movement. A poet, artist, model, and public provocateur, the Baroness defied the social and artistic codes of her time. As with many of her female contemporaries, the Baroness. cultural legacy has been obscured, and in some instances appropriated into the oeuvres of better known male peers. Accounts of her personal life are scarce and often conjectural.
+</p><p>
+According to recent scholarship, the Baroness was born Else Hildegard Plöin 1874. At age 18, she ran away from her middle-class Prussian home and survived as a vaudeville performer in Berlin. After a series of bohemian lovers and three failed marriages, she found herself penniless in New York City, a widow with the impressive title of Baroness von Freytag-Loringhoven. The Baroness was notorious for wearing outlandish costumes and cross-dressing in public, and her overtly sexual poetry caused such scandal that she was blacklisted from the most avant-garde publications. She pioneered an assemblage aesthetic, making sculptures and clothing from everyday objects. Many believe she gave Marcel Duchamp the porcelain urinal that later became Fountain. An important figurehead for the fledgling Dada movement in America, the Baroness was a close friend of avant-garde luminaries such as Djuna Barnes, Berenice Abbot, William Carlos Williams, and Ezra Pound.
+</p><p> 
+The Baroness died under mysterious circumstances in 1927. In 2012, Lily Benson and Cassandra Guan recruited a group of over fifty artists and filmmakers to produce a collective biopic about her life. Participants were invited to interpret specific biographical fragments and create filmic adaptations on their own terms. The results varied wildly in style and content: from a re-contextualized Jane Fonda interview, to an animation depicting the effects of syphilis, to a reconstruction of a lost 16mm film by Duchamp and Man Ray. Benson and Guan then assembled the vignettes into a feature-length film. Unfolding like an exquisite corpse, the final narrative reveals a gloriously conflicted historical portrait. A myriad of contemporary feminist voices confront the viewer with more questions than answers.
+</p>
+		</div>
+	</div>
+
+
+<!-- ARTISTS -->
+	<div class="row centered" id="section-artists">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/artists.png"></div>
+			<p>Leslie Allison, Animals, Raoul Anchondo, Mauricio Arango, Doug Ashford, Harold Batista, Gregory Benson, Lily Benson, Caitlin Berrigan, Clara Carter, Lea Cetera, Joanne K. Cheung, Abigail Childs, Abigail Colins, Katy Cool, Cecilia Corrigan, Alex DeCarli, EASTER, Chitra Ganesh, Alex Golden, Cassandra Guan, Jorun Jonasson, Prudence Katze, Simone Krug, Joyce LainéWilliam Lehman, Alexandra Lerman, Ming Lin, Thomas Love, Rob Lowe, Kirby Mages, Markues, Mores McWreath, Erin Jane Nelson, Anne Marte Overaa, Michala Paludan, Leah Pires, Sunita Prasad, Joanna Quigley, Will Rahilly, Amy Reid, Isaac Richard, Doron Sadja, Saki Sato, Frances Scholz, Dash Shaw, Sydney Shen, Beau Sievers, Shelly Silver, Ursula Sommer, Jim Strong, Aaron Vinton, and James N. Kienitz Wilkins.</p>
+<p><b>PRODUCERS</b></p>
+<p>
+Lily Benson & Cassandra Guan<br>
+<br>
+<b>ASSOCIATE PRODUCERS<br></b>
+Channing Benson & Keenan Patrick Pryor<br>
+<br>
+<b>DIRECTORS<br></b>
+Lily Benson & Cassandra Guan<br>
+<br>
+<b>EDITOR<br></b>
+Cassandra Guan<br>
+<br>
+<b>ASSISTANT EDITOR<br></b>
+Harold Batista<br>
+<br>
+<b>SOUND<br></b>
+Josh Allen<br>
+<br>
+<b>MUSIC<br></b>
+Easter (Max Boss & Stine Omar), Doron Sadja, Cross (Leslie Allison & Lily Benson)<br>
+<br>
+<b>DRAWINGS<br></b>
+Lily Benson<br>
+<br>
+<b>ANIMATION<br></b>
+Lily Benson & Thomas Love<br>
+<br>
+<b>VOICEOVER<br></b>
+Ulrike Mü<br>
+<b>VOICEOVER SCRIPT<br></b>
+Lily Benson, Cecilia Corrigan & Cassandra Guan<br>
+<br>
+<b>VOICEOVER RECORDING<br></b>
+Doron Sadja & Ezra Tenenbaum<br>
+<br>
+<b>COPY EDITING<br></b>
+Leslie Allison<br>
+<br>
+<b>CREDITS<br></b>
+Thomas Love<br>
+<br>
+This Production is made possible by a grant from NYSCA Electronic Media & Film Finishing Funds<br>
+</p>
+		</div>
+	</div>
+
+<!-- links -->
+	<div class="row centered" id="section-links">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/links.png"></div>
+			<a href="http://www.kickstarter.com/projects/lilybenson/the-baroness-project-the-filmballad-of-mamadada">Kickstarter: The Baroness Project: The Filmballad of Mamadada</a>
+		</div>
+	</div>
+
+<!-- press -->
+	<div class="row centered" id="section-press">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/press.png"></div>
+<p>"Lily Benson and Cassandra Guan orchestrate a playful and chaotic experiment that posits a return to a grand collective narrative via the post-queer populism of YouTube and crowdsourcing" -ARTFORUM (http://artforum.com/film/id=44533)
+</p></p>
+"The Filmballad of Mamadada is something as rare as a work that renews the scandalous ideals of the avantgarde without the slightest trace of retro nostalgia." -CPH:DOX (http://cphdox.dk/en/screening/filmballad-mamadada)
+</p></p>
+-link to download press release pdf
+-link to download high res film stills jpeg
+-link to download directors' photos jpeg
+-link to download film poster jpeg (TBA)
+</p>
+		</div>
+	</div>
+
+<!-- trailer -->
+	<div class="row centered" id="section-trailer">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/trailer.png"></div>
 			<div class="js-video [vimeo]"><iframe allowfullscreen="" src="http://player.vimeo.com/video/56660511" frameborder="0" width="500" height="281"></iframe></div>
 		</div>
-		<div class="col-md-offset-1 col-md-5">
-			<h2 class="film-title">The Filmballad of MAMADADA</h2>
-		</div>
-		<div class="col-md-5">
-</p>
-Directed and produced by Lily Benson and Cassandra Guan <br>
-<a href="http://cphdox.dk/en/screening/filmballad-mamadada">World Premiere: November 14, 2013</a><br>
-<a href="mailto:production@mamadada.info">production@mamadada.info</a></p>
-<p>
-More content coming soon. <br> </p>
-		</div>
-
 	</div>
 
-<!-- STILLS -->
 
-	<a name="stills"></a>
-	<div class="row centered">
+<!-- screenings -->
+	<div class="row centered" id="section-screenings">
+		<div class="NarrowBody">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/screenings.png"></div>
+			<b>Copenhagen International Documentary Film Festival (CPH:DOX)</b><br>
+Official Competition: New Visions<br>
+World Premiere<br>
+November 14, 2013 <br>
+<br>
+<b>Louisiana Museum of Modern Art</b>
+January 18, 2014<br>
+<br>
+<b>International Film Festival Rotterdam (IFFR)</b>
+Signals: EU-29<br>
+Dutch Premiere<br>
+January 28, 2014<br>
+<br>
+<b>Lisbon International Independent Film Festival (IndieLisboa)</b><br>
+Portuguese Premiere<br>
+May 2014<br>
+<br>
+<b>New Horizon International Film Festival</b><br>
+International Competition: Films on Art <br>
+Polish Premiere<br>
+July-August, 2014<br>
+		</div>
+	</div>
+
+<!-- copyright -->
+	<div class="row centered" id="section-screenings">
+		<div class="NarrowBody">
+			© Copyright 2013 | The Filmballad of Mamadada | All Rights Reserved
+		</div>
 	</div>
 
  </div><!-- /.container -->
@@ -92,6 +199,9 @@ More content coming soon. <br> </p>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/less-1.5.0.min.js"></script>
+	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
+<script src="//use.edgefonts.net/lato;pt-sans;neuton;source-sans-pro.js"></script>
 
 
 <script>

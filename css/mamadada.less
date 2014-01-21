@@ -1,5 +1,8 @@
+@import "../bootstrap/less/bootstrap.less";
+
 @dark-gray: #111;
 @almost-white: #F7F7F7;
+@margin-medium: 50px;
 
 a {
 color: #777;
@@ -10,17 +13,12 @@ a:hover {
 	}
 
 
-
-
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: lato, Helvetica, Arial, sans-serif;
 	background-color: @almost-white;
-	color: #CCC;
+	color: @dark-gray;
 }
 
-.outer-container  {
-	padding-top: 80px;
-}
 
 .container {
 }
@@ -28,6 +26,13 @@ body {
 .film-title {
 	font-weight: bold;
 	margin-top: 0.5em !important;
+}
+
+.section-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.5em !important;
+	text-transform: uppercase;
 }
 
 .js-video {
@@ -54,10 +59,7 @@ body {
 .menu {
 	text-align: center;
 	overflow: auto;
-}
-
-.nav-collapse {
-background-color: red;
+	margin-bottom: @margin-medium;
 }
 
 .menu-item {
@@ -65,5 +67,21 @@ background-color: red;
 	}
 
 .menu-item:not(:first-child) {
-	padding-left: 50px;
+	padding-left: 20px;
 	}
+
+.menu .crown {
+width: 20px;
+height: 20px;
+margin-left: -20px;
+float: left;
+}
+.section-title {
+	margin-bottom: 20px;
+}
+
+.NarrowBody {
+	.make-md-column-offset(3);
+	.make-md-column(6);
+	}
+
