@@ -15,6 +15,11 @@
 <!--	<link rel="stylesheet/less" href="css/mamadada.less">  -->
 
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!--	<script src="js/less-1.5.0.min.js"></script> -->
+	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
+<script src="//use.edgefonts.net/lato.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -223,11 +228,6 @@ July-August, 2014<br>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/less-1.5.0.min.js"></script>
-	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
-<script src="//use.edgefonts.net/lato.js"></script>
 
 
 
