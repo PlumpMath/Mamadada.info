@@ -18,7 +18,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!--	<script src="js/less-1.5.0.min.js"></script> -->
-	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
 <script src="//use.edgefonts.net/lato.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -39,7 +38,7 @@
 		</div>
 	</div>
 
-	<div class="row centered menu" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
+	<div class="row centered menu scroll-header" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
 		<div class="row-wide">
 
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
@@ -229,6 +228,7 @@ July-August, 2014<br>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
+	<script src="js/smooth-scroll-master/smooth-scroll.js"></script>
 
 
 <script>
