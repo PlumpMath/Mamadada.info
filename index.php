@@ -11,7 +11,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet/less" href="css/mamadada.less">
+	<link rel="stylesheet" href="css/mamadada.css">
+<!--	<link rel="stylesheet/less" href="css/mamadada.less"> -->
 
 
 
