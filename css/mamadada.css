@@ -6029,6 +6029,7 @@ body {
   padding-left: 20px;
 }
 .menu .crown {
+  display: none;
   width: 20px;
   height: 20px;
   margin-left: -20px;
