@@ -28,6 +28,16 @@ body {
 	margin-top: 0.5em !important;
 }
 
+.title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.title img {
+	width: 800px;
+	height: auto;
+	}
+
 .section-title {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -66,6 +76,11 @@ body {
 	display: inline-block;
 	}
 
+.menu-item img  {
+	height: 20px;
+	width: auto;
+	}
+
 .menu-item:not(:first-child) {
 	padding-left: 20px;
 	}
@@ -76,12 +91,37 @@ height: 20px;
 margin-left: -20px;
 float: left;
 }
+
 .section-title {
+	text-align: center;
 	margin-bottom: 20px;
 }
 
-.NarrowBody {
+.row-narrow {
 	.make-md-column-offset(3);
 	.make-md-column(6);
 	}
 
+.row-wide {
+	.make-md-column(12);
+}
+
+.section {
+	margin-bottom: 30px;
+	}
+
+#section-copyright {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.visuals-images {
+	text-align: center;
+}
+
+.visuals-images img {
+	display: inline-block;
+	margin-bottom: 10px;
+	}
