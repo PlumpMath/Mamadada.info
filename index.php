@@ -34,25 +34,37 @@
 <div class="container">
 	<div class="row centered">
 		<div class="row-wide title">
-			<center><img src="images/title_brush.png" class="img-responsive"></center>
+			<center><img src="images/title_brush_wide.png" class="img-responsive"></center>
 		</div>
 	</div>
 
 	<div class="row centered menu scroll-header" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
 		<div class="row-wide">
 
-			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-trailer" class="scroll"><img src="images/categories-sliced/trailer.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-about" class="scroll"><img src="images/categories-sliced/about.png" class="img-nonreponsive"></a></div>
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-artists" class="scroll"><img src="images/categories-sliced/artists.png" class="img-nonreponsive"></a></div>
-			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-crew" class="scroll"><img src="images/categories-sliced/crew.png" class="img-nonreponsive"></a></div>
-			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-screenings" class="scroll"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-visuals" class="scroll"><img src="images/categories-sliced/visuals.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-screenings" class="scroll"><img src="images/categories-sliced/screenings.png" class="img-nonreponsive"></a></div>
+			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-crew" class="scroll"><img src="images/categories-sliced/crew.png" class="img-nonreponsive"></a></div>
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-press" class="scroll"><img src="images/categories-sliced/press.png" class="img-nonreponsive"></a></div>
 			<div class="menu-item"><div class="crown crown-hidden"></div><a href="#section-links" class="scroll"><img src="images/categories-sliced/links.png" class="img-nonreponsive"></a></div>
 
 		</div>
 	</div>
 		
+
+<!-- trailer -->
+	<div class="section row centered" id="section-trailer">
+		<div class="row-wide">
+			<div class="col-md-offset-1 col-md-10">
+<!--			<div class="section-title"><img src="images/categories-sliced/trailer.png"></div> -->
+				<div class="js-video [vimeo]"><iframe allowfullscreen="" src="http://player.vimeo.com/video/56660511" frameborder="0" width="500" height="281"></iframe></div>
+			</div>
+		</div>
+	</div>
+
+
 <!-- ABOUT -->
 	<div class="section row centered" id="section-about">
 		<div class="row-narrow">
@@ -67,14 +79,6 @@ The Baroness died under mysterious circumstances in 1927. In 2012, Lily Benson a
 		</div>
 	</div>
 
-<!-- trailer -->
-	<div class="section row centered" id="section-trailer">
-		<div class="row-narrow">
-		<!-- <div class="col-md-offset-1 col-md-10"> -->
-			<div class="section-title"><img src="images/categories-sliced/trailer.png"></div>
-			<div class="js-video [vimeo]"><iframe allowfullscreen="" src="http://player.vimeo.com/video/56660511" frameborder="0" width="500" height="281"></iframe></div>
-		</div>
-	</div>
 
 <!-- ARTISTS -->
 	<div class="section row centered" id="section-artists">
@@ -84,6 +88,57 @@ The Baroness died under mysterious circumstances in 1927. In 2012, Lily Benson a
 			<p>Leslie Allison, Animals, Raoul Anchondo, Mauricio Arango, Doug Ashford, Harold Batista, Gregory Benson, Lily Benson, Caitlin Berrigan, Clara Carter, Lea Cetera, Joanne K. Cheung, Abigail Childs, Abigail Colins, Katy Cool, Cecilia Corrigan, Alex DeCarli, EASTER, Chitra Ganesh, Alex Golden, Cassandra Guan, Jorun Jonasson, Prudence Katze, Simone Krug, Joyce Lainé, William Lehman, Alexandra Lerman, Ming Lin, Thomas Love, Rob Lowe, Kirby Mages, Markues, Mores McWreath, Erin Jane Nelson, Anne Marte Overaa, Michala Paludan, Leah Pires, Sunita Prasad, Joanna Quigley, Will Rahilly, Amy Reid, Isaac Richard, Doron Sadja, Saki Sato, Frances Scholz, Dash Shaw, Sydney Shen, Beau Sievers, Shelly Silver, Ursula Sommer, Jim Strong, Aaron Vinton, and James N. Kienitz Wilkins.</p>
 		</div>
 	</div>
+
+<!-- visuals -->
+	<div class="section row centered" id="section-visuals">
+		<div class="row-wide">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/visuals.png"></div>
+			<div class="visuals-images">
+				<img src="images/stills/Filmballad_still1.jpg" class="img-responsive">
+				<img src="images/stills/Filmballad_still2.jpg" class="img-responsive">
+				<img src="images/stills/Filmballad_still3.jpg" class="img-responsive">
+				<img src="images/stills/Filmballad_still5.jpg" class="img-responsive">
+				<img src="images/stills/Mamadada10.jpg" class="img-responsive">
+				<img src="images/stills/Mamadada08.jpg" class="img-responsive">
+				<img src="images/stills/Mamadada07.jpg" class="img-responsive">
+				<img src="images/stills/Mamadada12.jpg" class="img-responsive">
+			</div>
+				
+		</div>
+	</div>
+
+
+<!-- screenings -->
+	<div class="section row centered" id="section-screenings">
+		<div class="row-narrow">
+		<!-- <div class="col-md-offset-1 col-md-10"> -->
+			<div class="section-title"><img src="images/categories-sliced/screenings.png"></div>
+			<b>Copenhagen International Documentary Film Festival (CPH:DOX)</b><br>
+Official Competition: New Visions<br>
+World Premiere<br>
+November 14, 2013 <br>
+<br>
+<b>Louisiana Museum of Modern Art</b><br>
+January 18, 2014<br>
+<br>
+<b>International Film Festival Rotterdam (IFFR)</b><br
+Signals: EU-29<br>
+Dutch Premiere<br>
+January 28, 2014<br>
+<br>
+<b>Lisbon International Independent Film Festival (IndieLisboa)</b><br>
+Portuguese Premiere<br>
+May 2014<br>
+<br>
+<b>New Horizon International Film Festival</b><br>
+International Competition: Films on Art <br>
+Polish Premiere<br>
+July-August, 2014<br>
+		</div>
+	</div>
+
+
 
 <!-- CREW -->
 	<div class="section row centered" id="section-crew">
@@ -119,7 +174,7 @@ Lily Benson<br>
 Lily Benson & Thomas Love<br>
 <br>
 <b>VOICEOVER<br></b>
-Ulrike Mü<br>
+Ulrike M&uuml;ller<br>
 <br>
 <b>VOICEOVER SCRIPT<br></b>
 Lily Benson, Cecilia Corrigan & Cassandra Guan<br>
@@ -138,51 +193,6 @@ This Production is made possible by a grant from NYSCA Electronic Media & Film F
 		</div>
 	</div>
 
-<!-- screenings -->
-	<div class="section row centered" id="section-screenings">
-		<div class="row-narrow">
-		<!-- <div class="col-md-offset-1 col-md-10"> -->
-			<div class="section-title"><img src="images/categories-sliced/screenings.png"></div>
-			<b>Copenhagen International Documentary Film Festival (CPH:DOX)</b><br>
-Official Competition: New Visions<br>
-World Premiere<br>
-November 14, 2013 <br>
-<br>
-<b>Louisiana Museum of Modern Art</b><br>
-January 18, 2014<br>
-<br>
-<b>International Film Festival Rotterdam (IFFR)</b><br
-Signals: EU-29<br>
-Dutch Premiere<br>
-January 28, 2014<br>
-<br>
-<b>Lisbon International Independent Film Festival (IndieLisboa)</b><br>
-Portuguese Premiere<br>
-May 2014<br>
-<br>
-<b>New Horizon International Film Festival</b><br>
-International Competition: Films on Art <br>
-Polish Premiere<br>
-July-August, 2014<br>
-		</div>
-	</div>
-
-<!-- visuals -->
-	<div class="section row centered" id="section-visuals">
-		<div class="row-wide">
-		<!-- <div class="col-md-offset-1 col-md-10"> -->
-			<div class="section-title"><img src="images/categories-sliced/visuals.png"></div>
-			<div class="visuals-images">
-				<img src="images/stills/Filmballad_still_composite.jpg" class="img-responsive">
-				<img src="images/stills/Filmballad_still1.jpg" class="img-responsive">
-				<img src="images/stills/Filmballad_still2.jpg" class="img-responsive">
-				<img src="images/stills/Filmballad_still3.jpg" class="img-responsive">
-				<img src="images/stills/Filmballad_still4.jpg" class="img-responsive">
-				<img src="images/stills/Filmballad_still5.jpg" class="img-responsive">
-			</div>
-				
-		</div>
-	</div>
 
 <!-- press -->
 	<div class="section row centered" id="section-press">
@@ -194,7 +204,7 @@ July-August, 2014<br>
 "The Filmballad of Mamadada is something as rare as a work that renews the scandalous ideals of the avantgarde without the slightest trace of retro nostalgia." <b><a href="http://cphdox.dk/en/screening/filmballad-mamadada">&mdash; CPH:DOX</a></b>
 </p>
 <br>
-<a href="press/Mamadada_Press-Release_140115.pdf">Download press release</a><br>
+<a href="press/Mamadada_Press_Release_140115.pdf">Download press release</a><br>
 <a href="press/Mamadada_web_stills.zip">Download high-res film stills</a><br>
 <a href="press/Mamadada_director_photos.zip">Download directors' photos</a><br>
 <br>
@@ -208,7 +218,9 @@ July-August, 2014<br>
 		<div class="row-narrow">
 		<!-- <div class="col-md-offset-1 col-md-10"> -->
 			<div class="section-title"><img src="images/categories-sliced/links.png"></div>
-			<a href="http://www.kickstarter.com/projects/lilybenson/the-baroness-project-the-filmballad-of-mamadada">Kickstarter: The Baroness Project: The Filmballad of Mamadada</a>
+			<a href="http://www.kickstarter.com/projects/lilybenson/the-baroness-project-the-filmballad-of-mamadada">Kickstarter: The Baroness Project: The Filmballad of Mamadada</a><br>
+			<a href="http://www.lilybenson.com"> Lily Benson </a><br>
+			<a href="http://vimeo.com/cassandraguan">Cassandra Guan</a> 
 		</div>
 	</div>
 
